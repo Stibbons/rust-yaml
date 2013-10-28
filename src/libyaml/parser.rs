@@ -1,8 +1,12 @@
 
-
-struct YamlParser
+pub struct YamlParser
 {
-    fn parse()
+    priv data: int,
+}
+
+impl YamlParser
+{
+    pub fn parse()
     {
 
     }
