@@ -1,13 +1,13 @@
 
 pub struct YamlParser
 {
-    priv mut data: int,
+    priv data: int,
 }
 
 impl YamlParser
 {
     pub fn parse(self)
     {
-        self.data = 1;
+        // self.data = 1;
     }
 }

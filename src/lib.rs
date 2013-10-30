@@ -8,4 +8,3 @@
 #[crate_type = "lib"];
 
 pub mod parser;
-pub mod tests;
