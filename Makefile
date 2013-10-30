@@ -37,6 +37,9 @@ quickcheck: build/quicktests
 check: all build/tests
 	build/tests --test
 
+test:check
+tests:check
+
 clean:
 	rm -rf src/libyaml/generated/ src/libyaml/codegen/codegen
 	rm -rf build/
