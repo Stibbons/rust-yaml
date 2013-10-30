@@ -8,6 +8,6 @@ impl YamlParser
 {
     pub fn parse()
     {
-
+        self.data = 1;
     }
 }
