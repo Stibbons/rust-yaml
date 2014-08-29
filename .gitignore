@@ -2,3 +2,6 @@
 *.dSYM/
 *.swp
 build/
+target/
+Cargo.lock
+src/current.racertmp
