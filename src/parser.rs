@@ -1,13 +1,18 @@
 
 pub struct YamlParser
 {
-    priv data: int,
+    data: int,
+    succes: bool,
 }
 
 impl YamlParser
 {
-    pub fn parse(self)
+    pub fn parse(self) -> bool
     {
-        // self.data = 1;
+        let a: int = 1 + 5;
+
+        // self.data = a;
+
+        return true;
     }
 }

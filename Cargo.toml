@@ -1,0 +1,5 @@
+[package]
+
+name = "rust-yaml"
+version = "0.0.1"
+authors = ["Gaetan Semet<gaetan@xeberon.net>"]
