@@ -6,7 +6,7 @@ struct YamlParser {
 
 impl YamlParser {
     fn parse(file_content: &str) -> HashMap<&str, uint> {
-           let mut h = HashMap::new();
+           let h = HashMap::new();
 
            h.insert("key", 123u);
 

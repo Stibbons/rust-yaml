@@ -2,4 +2,24 @@
 
 name = "rust-yaml"
 version = "0.0.1"
-authors = ["Gaetan Semet<gaetan@xeberon.net>"]
+authors = ["Gaetan Semet <gaetan@xeberon.net>"]
+description = "YAML Parser for Rust"
+homepage = "https://github.com/Stibbons/rust-yaml"
+readme = "README.rst"
+keywords = ["yaml"]
+
+
+[profile.dev]
+opt-level = 0
+debug = true
+
+[profile.release]
+opt-level = 3
+debug = false
+
+[profile.test]
+opt-level = 0
+
+[lib]
+name = "rust-yaml"
+test = true
