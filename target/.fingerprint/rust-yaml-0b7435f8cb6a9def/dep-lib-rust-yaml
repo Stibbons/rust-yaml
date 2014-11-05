@@ -1,2 +1,2 @@
-/Users/gaetan/Projects/rust/rust-yaml/target/librust-yaml-0b7435f8cb6a9def.rlib: /Users/gaetan/Projects/rust/rust-yaml/src/lib.rs
+/Users/gaetan/Projects/rust/rust-yaml/target/librust-yaml-0b7435f8cb6a9def.rlib: src/yaml.rs
 

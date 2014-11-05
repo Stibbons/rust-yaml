@@ -6,7 +6,7 @@ authors = ["Gaetan Semet <gaetan@xeberon.net>"]
 description = "YAML Parser for Rust"
 homepage = "https://github.com/Stibbons/rust-yaml"
 readme = "README.rst"
-keywords = ["yaml"]
+keywords = ["yaml", "library", "parser", "encode", "decode"]
 
 
 [profile.dev]
@@ -23,3 +23,4 @@ opt-level = 0
 [lib]
 name = "rust-yaml"
 test = true
+path = "src/yaml.rs"

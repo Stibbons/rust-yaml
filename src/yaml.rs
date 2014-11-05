@@ -58,7 +58,7 @@ impl<T: Iterator<char>> Parser<T>
             line: 1,
             col: 0,
         };
-        return p
+        p
     }
 
     // Decode a Yaml value from a Parser.
